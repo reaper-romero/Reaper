@@ -1,0 +1,9 @@
+ssh -p 61334 scpdxcs@ml-lab-34278aa9-8ad2-4312-b49b-79c70516b04b.southcentralus.cloudapp.azure.com
+Frome windows Local to VM
+pscp -r -P 61334 C:\Users\rome8414\Documents\cs224\XCS224N-A4\src scpdxcs@ml-lab-34278aa9-8ad2-4312-b49b-79c70516b04b.southcentralus.cloudapp.azure.com:/home/scpdxcs/cs224/A4
+
+From windows command line From VM to Local
+pscp -P 61334 scpdxcs@ml-lab-34278aa9-8ad2-4312-b49b-79c70516b04b.southcentralus.cloudapp.azure.com:/home/scpdxcs/cs224/src/submission/test_outputs.txt C:\Users\rome8414\Documents\cs224\XCS224N-A4\src\submission
+
+
+ssh -p 61334 scpdxcs@ml-lab-34278aa9-8ad2-4312-b49b-79c70516b04b.southcentralus.cloudapp.azure.com
