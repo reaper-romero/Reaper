@@ -1,0 +1,2 @@
+kaggle datasets list -s nba 
+kaggle datasets download -d "justinas/nba-players-data"
